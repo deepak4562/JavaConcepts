@@ -26,7 +26,7 @@ public class Find_nth_Highest_salary {
 //                e2.getSalary()-e1.getSalary()).skip(1).findFirst().get();
                 .sorted(Comparator.comparingDouble(EmployeePojo::getSalary).reversed())
                 .skip(1).findFirst().get();
-        //highest salary will varry according to skip ,salary will display in reverse order
+        //highest salary will vary according to skip ,salary will display in reverse order
         System.out.println(employeePojo);
 
 
