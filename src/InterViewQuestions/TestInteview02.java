@@ -1,6 +1,6 @@
 package InterViewQuestions;
 
-public class TestInteview implements Runnable{
+public class TestInteview02 implements Runnable{
     @Override
     public void run() {
         System.out.println("r1");
@@ -9,7 +9,7 @@ public class TestInteview implements Runnable{
     }
 
     public static void main(String[] args) {
-        Thread t=new Thread(new TestInteview());
+        Thread t=new Thread(new TestInteview02());
         t.start();
         System.out.println("m1");
         //t.join();
